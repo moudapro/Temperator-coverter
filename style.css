@@ -1,0 +1,28 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right,rgb(162, 229, 162),rgb(105, 236, 105));
+    font-family: 'IBM Plex Mono', monospace;
+}
+.container{
+    width: 350px;
+    background-color: rgb(162, 229, 162);
+    box-shadow: 0px 0px 10px 4px black;
+    padding: 20px;
+    transform: translate(120%,100%);
+}
+.container .content{
+    display: flex;
+    justify-content: space-between;
+    margin:  10px;
+}
+.content p{
+    color: rgb(3, 68, 43);
+}
+.num{
+    height: 20px;
+    background-color: rgb(195, 240, 195);
+    border: 1px rgb(219, 235, 219) solid;
+    outline: none;
+    padding: 5px;
+}
